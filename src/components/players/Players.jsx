@@ -7,7 +7,16 @@ const Players = ({playersPromise}) => {
   
     
     return (
-        <div>
+
+
+        <div className='container mx-auto'>
+            <div className='flex justify-between gap-4 mb-2'>
+                <h2 className='font-bold text-xl'>Available Players: {players.length} </h2>
+  <div>
+    <button className='btn btn-success'>Available</button>
+    <button className='btn '>Selected</button>
+  </div>
+            </div>
             <AvailablePlayers players={players}></AvailablePlayers>
         </div>
     );
