@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@theme {
+  /* ডেইজিইউআই এর কালার থিম ঠিক রাখার জন্য এটি রাখতে পারেন */
+}
+
+/* পুরো ওয়েবসাইটের ব্যাকগ্রাউন্ড কালো করার জন্য */
+@layer base {
+  body {
+    @apply bg-gray-900 text-white min-h-screen;
+  }
+}
