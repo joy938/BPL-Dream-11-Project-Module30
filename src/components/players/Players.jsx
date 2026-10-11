@@ -1,4 +1,4 @@
-import React, { use } from 'react';
+import  { use } from 'react';
 import AvailablePlayers from './AvailablePlayers';
 
 const Players = ({playersPromise}) => {

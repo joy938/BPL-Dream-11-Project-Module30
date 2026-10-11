@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const PlayersCard = ({ player }) => {
     // প্রপস থেকে প্লেয়ারের ভেতরের ডেটাগুলো বের করে নিলাম
