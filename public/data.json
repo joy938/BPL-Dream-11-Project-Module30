@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "image": "/images/shakib.jpg",
+    "name": "Shakib Al Hasan",
+    "origin": "Bangladesh",
+    "playerType": "All-rounder",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "battingStyle": "Left-handed",
+    "price": 18000
+  },
+  {
+    "id": 2,
+    "image": "/images/tamim.jpg",
+    "name": "Tamim Iqbal",
+    "origin": "Bangladesh",
+    "playerType": "Batter",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Left-handed",
+    "price": 15000
+  },
+  {
+    "id": 3,
+    "image": "/images/mushfiq.jpg",
+    "name": "Mushfiqur Rahim",
+    "origin": "Bangladesh",
+    "playerType": "Wicketkeeper-batter",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-handed",
+    "price": 14000
+  },
+  {
+    "id": 4,
+    "image": "/images/mustafiz.jpg",
+    "name": "Mustafizur Rahman",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm fast-medium",
+    "battingStyle": "Left-handed",
+    "price": 13000
+  },
+  {
+    "id": 5,
+    "image": "/images/litton.jpg",
+    "name": "Litton Das",
+    "origin": "Bangladesh",
+    "playerType": "Wicketkeeper-batter",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-handed",
+    "price": 12000
+  },
+  {
+    "id": 6,
+    "image": "/images/taskin.jpg",
+    "name": "Taskin Ahmed",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-handed",
+    "price": 11000
+  },
+  {
+    "id": 7,
+    "image": "/images/mehidy.jpg",
+    "name": "Mehidy Hasan Miraz",
+    "origin": "Bangladesh",
+    "playerType": "All-rounder",
+    "bowlingStyle": "Right-arm offbreak",
+    "battingStyle": "Right-handed",
+    "price": 10000
+  },
+  {
+    "id": 8,
+    "image": "/images/mahmudullah.jpg",
+    "name": "Mahmudullah",
+    "origin": "Bangladesh",
+    "playerType": "All-rounder",
+    "bowlingStyle": "Right-arm offbreak",
+    "battingStyle": "Right-handed",
+    "price": 9000
+  },
+  {
+    "id": 9,
+    "image": "/images/rashid.jpg",
+    "name": "Rashid Khan",
+    "origin": "Afghanistan",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm legbreak",
+    "battingStyle": "Right-handed",
+    "price": 20000
+  },
+  {
+    "id": 10,
+    "image": "/images/williamson.jpg",
+    "name": "Kane Williamson",
+    "origin": "New Zealand",
+    "playerType": "Batter",
+    "bowlingStyle": "Right-arm offbreak",
+    "battingStyle": "Right-handed",
+    "price": 17000
+  }
+]
