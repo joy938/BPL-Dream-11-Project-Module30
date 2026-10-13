@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
 
             {/* নাভবারের ডান পাশ (মেনু এবং প্রোফাইল/কয়েন স্পেস) */}
-            <div className="flex-none gap-4">
+            <div className="flex-none gap-6 items-center">
                 <ul className="menu menu-horizontal px-1 font-medium text-gray-300 hidden md:flex gap-2">
                     <li><a className="hover:text-orange-400 transition-colors">Home</a></li>
                     <li><a className="hover:text-orange-400 transition-colors">Fixture</a></li>
@@ -23,11 +23,17 @@ const Navbar = () => {
                     <li><a className="hover:text-orange-400 transition-colors">Schedules</a></li>
                 </ul>
 
-
+                {/* মডার্ন এবং স্টাইলিশ কয়েন ব্যাজ বাটন */}
+                <div className="flex items-center gap-2 bg-gray-900 border border-gray-700/60 rounded-xl px-4 py-2 font-bold shadow-lg shadow-yellow-500/5 select-none">
+                    <span className="text-gray-200 tracking-wide text-sm">500 Coin</span>
+                    <span className="text-base text-yellow-500 animate-spin-slow">$</span>
+                </div>
             </div>
         </div>
     );
 };
 
 export default Navbar;
+
+
 
