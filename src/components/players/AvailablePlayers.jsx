@@ -1,4 +1,4 @@
-import React from 'react';
+
 import PlayersCard from './PlayersCard';
 
 const AvailablePlayers = ({ players }) => {
