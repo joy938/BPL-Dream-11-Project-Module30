@@ -1,7 +1,10 @@
 import { isValidElement, useState } from "react";
 
 
-const PlayersCard = ({ player }) => {
+const PlayersCard = ({ player , coin , setCoin }) => {
+
+
+    
     const [isSelected , setIsSelected] = useState(false)
     // প্রপস থেকে প্লেয়ারের ভেতরের ডেটাগুলো বের করে নিলাম
     const { name, origin, playertype, batting_style, bowling_style, price, image } = player;
