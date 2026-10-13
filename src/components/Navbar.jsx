@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo from '../assets/logo.png'; // আপনার ইম্পোর্ট করা লোগো পাথ
 
 const Navbar = () => {
+
+    const[coin , setcoin] = useState(5000)
+
     return (
         <div className="navbar bg-base-100/50 backdrop-blur-md sticky top-0 z-50 px-4 md:px-12 border-b border-gray-800">
             {/* নাভবারের বাম পাশ (লোগো) */}
@@ -25,8 +28,9 @@ const Navbar = () => {
 
                 {/* মডার্ন এবং স্টাইলিশ কয়েন ব্যাজ বাটন */}
                 <div className="flex items-center gap-2 bg-gray-900 border border-gray-700/60 rounded-xl px-4 py-2 font-bold shadow-lg shadow-yellow-500/5 select-none">
-                    <span className="text-gray-200 tracking-wide text-sm">500 Coin</span>
                     <span className="text-base text-yellow-500 animate-spin-slow">$</span>
+                    <span className="text-gray-200 tracking-wide text-sm">{coin} Coin</span>
+
                 </div>
             </div>
         </div>
