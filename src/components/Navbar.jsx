@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Logo from '../assets/logo.png'; // আপনার ইম্পোর্ট করা লোগো পাথ
 
-const Navbar = () => {
+const Navbar = ({coin}) => {
 
-    const[coin , setcoin] = useState(5000)
+
 
     return (
         <div className="navbar bg-base-100/50 backdrop-blur-md sticky top-0 z-50 px-4 md:px-12 border-b border-gray-800">
