@@ -1,6 +1,8 @@
+import { isValidElement, useState } from "react";
 
 
 const PlayersCard = ({ player }) => {
+    const [isSelected , setIsSelected] = useState(false)
     // প্রপস থেকে প্লেয়ারের ভেতরের ডেটাগুলো বের করে নিলাম
     const { name, origin, playertype, batting_style, bowling_style, price, image } = player;
 
@@ -51,8 +53,9 @@ const PlayersCard = ({ player }) => {
                     </div>
                     
                     {/* সাধারণ বাটন */}
-                    <button className="btn btn-outline btn-sm border-orange-500 text-white hover:bg-orange-500 hover:border-orange-500 rounded-xl px-4 font-bold text-xs transition-all duration-200 cursor-pointer">
-                        Choose Player
+                    <button 
+                    onClick={()=> setIsSelected(true)} className="btn btn-outline btn-sm border-orange-500 text-white hover:bg-orange-500 hover:border-orange-500 rounded-xl px-4 font-bold text-xs transition-all duration-200 cursor-pointer" disabled={isSelected===true ? true : false} >
+             {isSelected===true ?'Selected'  : 'Choose Players' }
                     </button>
                 </div>
             </div>
